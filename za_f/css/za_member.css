@@ -1,0 +1,176 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+b,
+i,
+ul,
+li,
+img,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+hgroup,
+menu,
+section,
+nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+section,
+summary,
+nav {
+  display: block;
+}
+nav ul {
+  list-style: none;
+}
+blockquote,
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+input,
+select {
+  vertical-align: middle;
+}
+#container {
+  position: relative;
+  width: auto;
+  margin: 0 auto;
+  background: #fff;
+}
+.content {
+  position: relative;
+  width: 960px;
+  overflow: hidden;
+  margin: 0 auto 50px;
+  z-index: 5;
+}
+.content .label {
+  font-size: 12px;
+  color: #959595;
+}
+.content .label span {
+  color: #E20F76;
+}
+.content h2 {
+  font-size: 36px;
+  color: #E20F76;
+  text-align: center;
+  line-height: 60px;
+}
+.content .leftbar {
+  width: 224px;
+  overflow: hidden;
+  float: left;
+  margin-right: 24px;
+}
+.content .leftbar .ttl_1 {
+  width: 224px;
+  height: 90px;
+}
+.content .leftbar .ttl_1 img {
+  width: 100%;
+  height: 100%;
+}
+.content .leftbar p {
+  line-height: 46px;
+  color: #353334;
+}
+.content .right {
+  width: 690px;
+  height: 940px;
+  border: 1px solid #E4E4E4;
+  float: left;
+}
+.content .right button {
+  width: 96px;
+  height: 26px;
+  border: 1px solid #DA005D;
+  background: #F53598;
+  color: #FFF0F4;
+  float: right;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+.content .right .member {
+  width: 620px;
+  height: 860px;
+  margin: 10px 35px;
+  float: left;
+}
+.content .right .member img {
+  width: 100%;
+  height: 100%;
+}
+#background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+#background .front {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 4900px;
+  background-repeat: no-repeat;
+  background-image: url(../img/background_02.jpg);
+  background-size: 100% auto;
+  z-index: 0;
+  overflow: hidden;
+}
+#background .back {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 4700px;
+  background-repeat: no-repeat;
+  background-image: url(../img/background_01.png);
+  background-size: 100% auto;
+  z-index: 0;
+  overflow: hidden;
+}
+/*# sourceMappingURL=za_member.css.map */

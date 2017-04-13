@@ -1,0 +1,359 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+b,
+i,
+ul,
+li,
+img,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+hgroup,
+menu,
+section,
+nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+section,
+summary,
+nav {
+  display: block;
+}
+nav ul {
+  list-style: none;
+}
+blockquote,
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+input,
+select {
+  vertical-align: middle;
+}
+header {
+  width: 100%;
+  height: 680px;
+  background: url(../img/za_ft/photo_area_01.jpg) no-repeat;
+  background-size: 100% 100%;
+  margin-top: -140px;
+  position: relative;
+  margin-bottom: 76px;
+  z-index: 2;
+}
+header .main_banner {
+  width: 1080px;
+  height: 540px;
+  margin: 0 auto;
+  background-size: 100%;
+  position: relative;
+}
+header .main_banner h3 {
+  position: absolute;
+  top: 160px;
+  left: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #E1017D;
+}
+header .main_banner .banner_rh {
+  width: 303px;
+  height: 141px;
+  position: absolute;
+  top: 196px;
+  left: 50px;
+  background: url(../img/stars_02_name.png);
+}
+header .main_banner > p {
+  height: 80px;
+  position: absolute;
+  left: 50px;
+  top: 362px;
+  font-size: 20px;
+  color: #ED0086;
+  line-height: 20px;
+}
+header .banner_bottom {
+  width: 100%;
+  height: 140px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.5);
+}
+header .banner_bottom .banner_txt {
+  width: 1080px;
+  height: 110px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+header .banner_bottom .banner_txt h4 {
+  font-size: 16px;
+  line-height: 20px;
+  color: #E1017D;
+  letter-spacing: 3px;
+}
+header .banner_bottom .banner_txt p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #373631;
+  margin-top: 8px;
+}
+.main {
+  width: 1080px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.main .main_top {
+  width: 100%;
+  height: 280px;
+  margin-bottom: 70px;
+}
+.main .main_top h2 {
+  font-size: 26px;
+  line-height: 40px;
+  color: #2E3734;
+  border-bottom: 2px solid #F9038C;
+  margin-bottom: 40px;
+}
+.main .main_top .movie_left {
+  width: 46%;
+  overflow: hidden;
+  float: left;
+}
+.main .main_top .movie_left p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #2E3734;
+  letter-spacing: 2px;
+}
+.main .main_top .movie_left p:first-child {
+  color: #F9038C;
+}
+.main .main_top .movie_right {
+  width: 46%;
+  overflow: hidden;
+  float: right;
+}
+.main .main_top .movie_right p {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #2E3734;
+}
+.main .main_top .movie_right p:first-child {
+  color: #F9038C;
+}
+.main .main_center {
+  width: 100%;
+  overflow: hidden;
+}
+.main .main_center .center_left {
+  width: 46%;
+  overflow: hidden;
+  float: left;
+}
+.main .main_center .center_left h2 {
+  font-size: 26px;
+  line-height: 40px;
+  color: #2E3734;
+  border-bottom: 2px solid #F9038C;
+  margin-bottom: 40px;
+}
+.main .main_center .center_left p {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #2E3734;
+}
+.main .main_center .center_left p:nth-child(2n) {
+  margin-top: 40px;
+  color: #F9038C;
+}
+.main .main_center .center_right {
+  width: 46%;
+  overflow: hidden;
+  float: right;
+}
+.main .main_center .center_right h2 {
+  font-size: 26px;
+  line-height: 40px;
+  color: #2E3734;
+  border-bottom: 2px solid #F9038C;
+  margin-bottom: 40px;
+}
+.main .main_center .center_right p {
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 2px;
+  color: #2E3734;
+}
+.main .main_center .center_right p:nth-child(2),
+.main .main_center .center_right p:nth-child(5) {
+  margin-top: 40px;
+  color: #F9038C;
+}
+.main .main_center .center_right img {
+  margin-top: 20px;
+}
+.main .main_center .center_bottom {
+  width: 46%;
+  overflow: hidden;
+  margin-top: 56px;
+  margin-left: 50px;
+  float: left;
+}
+.main .main_center .center_bottom h2 {
+  font-size: 26px;
+  line-height: 40px;
+  color: #2E3734;
+  border-bottom: 2px solid #F9038C;
+  margin-bottom: 40px;
+}
+.main .main_center .center_bottom p {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #2E3734;
+}
+.main .main_center .center_bottom p:nth-child(2),
+.main .main_center .center_bottom p:nth-child(5) {
+  margin-top: 40px;
+  color: #F9038C;
+}
+.main .main_center .credit {
+  width: 100%;
+  text-align: right;
+  float: left;
+  margin: 20px 0 40px;
+}
+.main .xiayiqi {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+.main .xiayiqi p,
+.main .xiayiqi a {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #2E3734;
+}
+.main .xiayiqi p:nth-child(1),
+.main .xiayiqi a:nth-child(1) {
+  color: #FB0189;
+}
+.main .xiayiqi a {
+  margin-top: 20px;
+  display: block;
+}
+.main_footer {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 60px;
+}
+.main_footer .main_cont {
+  width: 1080px;
+  overflow: hidden;
+  margin: 0 auto 20px;
+}
+.main_footer .main_cont .chapter {
+  width: 340px;
+  float: left;
+  margin-right: 28px;
+}
+.main_footer .main_cont .chapter:nth-child(3) {
+  margin-right: 0;
+}
+.main_footer .main_cont .chapter a:first-child {
+  width: 100%;
+  height: 220px;
+  display: block;
+  margin-bottom: 16px;
+}
+.main_footer .main_cont .chapter a:first-child img {
+  width: 100%;
+  height: 100%;
+}
+.main_footer .main_cont .chapter h5 {
+  font-size: 15px;
+  color: #E1017D;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.main_footer .main_cont .chapter p {
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  width: 320px;
+}
+.main_footer .main_cont .chapter a:last-child {
+  width: 130px;
+  height: 25px;
+  display: block;
+  margin-top: 16px;
+}
+.main_footer .main_cont .chapter a:last-child img {
+  width: 100%;
+  height: 100%;
+}
+.main_footer .main_cont .backTop {
+  width: 54px;
+  height: 50px;
+  float: right;
+  margin: 30px 25px;
+}
+.main_footer .main_cont .backTop img {
+  width: 30px;
+  height: 18px;
+  margin: 0 auto;
+  display: block;
+}
+.main_footer .main_cont .backTop p {
+  width: 100%;
+  text-align: center;
+  color: #E1017D;
+  margin-top: 15px;
+}
+/*# sourceMappingURL=za_fangtan.css.map */

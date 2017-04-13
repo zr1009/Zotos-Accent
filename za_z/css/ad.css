@@ -1,0 +1,99 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	outline: none;
+	vertical-align: middle;
+	font-family: "微软雅黑";
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	border: none;
+}
+
+
+
+#nav {
+	width: 100%;
+	height: 94px;
+	background: url(../img/nav-bg.png);
+	background-size: cover;
+	box-shadow: 0 2px 5px 1px #000;
+}
+
+.nav_a {
+	width: 960px;
+	height: 94px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.nav_a>a {
+	width: 93px;
+	height: 93px;
+	position: absolute;
+	left: 23px;
+}
+
+.nav_b {
+	width: 488px;
+	height: 94px;
+	margin-left: 165px;
+}
+
+.nav_b a {
+	display: block;
+	float: left;
+	padding: 0 35px;
+	color: #fff;
+	line-height: 94px;
+}
+
+.nav_b a:hover {
+	color: #8f8f8f;
+}
+
+.nav_c {
+	width: 184px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.nav_c p {
+	width: 100%;
+	height: 30px;
+	padding-left: 60px;
+	line-height: 30px;
+	font-size: 12px;
+	color: #fff;
+}
+
+.foota{
+	width: 960px;
+	height: 30px;
+	margin: auto;
+	margin-top: 40px;
+}
+.footb{
+	width: 960px;
+	height: 14px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.spana{
+	float: left;
+	font-size: 12px;
+	color: #a4a4a4;
+}
+.spanb{
+	float: right;
+	font-size: 10px;
+	color: #a4a4a4;
+}

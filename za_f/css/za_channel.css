@@ -1,0 +1,256 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+b,
+i,
+ul,
+li,
+img,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+hgroup,
+menu,
+section,
+nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+section,
+summary,
+nav {
+  display: block;
+}
+nav ul {
+  list-style: none;
+}
+blockquote,
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+input,
+select {
+  vertical-align: middle;
+}
+.bo_header {
+  background: #212121;
+}
+.banner {
+  width: 100%;
+  height: 660px;
+  background: #212121;
+}
+.banner .banner_center {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  background: #212121;
+  position: relative;
+}
+.banner .banner_center .leftimg {
+  width: 320px;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 555;
+}
+.banner .banner_center .leftimg img {
+  width: 100%;
+  height: 100%;
+}
+.banner .banner_center .video_freq {
+  width: 780px;
+  height: 460px;
+  background: #000000;
+  z-index: 1;
+  margin: 50px 15px 0;
+  float: left;
+  position: relative;
+}
+.banner .banner_center .video_freq #video {
+  width: 100%;
+  height: 100%;
+}
+.banner .banner_center .video_bottom {
+  width: 780px;
+  height: 26px;
+  position: absolute;
+  left: 10px;
+  bottom: 60px;
+}
+.banner .banner_center .video_bottom img {
+  width: 15px;
+  height: 26px;
+}
+.banner .banner_center .video_bottom img:last-child {
+  float: right;
+}
+.banner .banner_center .video_bottom img:first-child {
+  float: left;
+}
+.banner .banner_center .video_bottom span {
+  float: left;
+  width: calc(760px - 30px);
+  text-align: center;
+  line-height: 26px;
+  font-size: 16px;
+  color: #D50B51;
+  font-weight: 900;
+}
+.banner .banner_center .rightbar {
+  width: 160px;
+  height: 100%;
+  background: #212121;
+  float: right;
+  position: relative;
+}
+.banner .banner_center .rightbar p:nth-child(1) {
+  width: 100%;
+  height: 25px;
+}
+.banner .banner_center .rightbar p:nth-child(1) span {
+  width: 132px;
+  height: 25px;
+  float: left;
+  background: #333333;
+  color: #D80473;
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  text-indent: 8px;
+}
+.banner .banner_center .rightbar p:nth-child(1) img {
+  width: 25px;
+  height: 25px;
+  float: right;
+}
+.banner .banner_center .rightbar .video_list {
+  width: 160px;
+  height: 110px;
+  margin-top: 20px;
+}
+.banner .banner_center .rightbar .video_list .img {
+  width: 160px;
+  height: 90px;
+}
+.banner .banner_center .rightbar .video_list .img img {
+  width: 100%;
+  height: 100%;
+}
+.banner .banner_center .rightbar .video_list p {
+  line-height: 20px;
+  font-size: 13px;
+  color: #FFF0F4;
+}
+.banner .banner_center .rightbar .bottom_thumb {
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  bottom: 100px;
+  left: 20px;
+}
+.content {
+  width: 1080px;
+  overflow: hidden;
+  margin: 50px auto;
+  background: #212121;
+  position: relative;
+}
+.content .lunb {
+  width: 100%;
+  height: 560px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.content .lunb .sLast {
+  width: 35px;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -50px;
+  cursor: pointer;
+}
+.content .lunb .sPrav {
+  width: 35px;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -50px;
+  cursor: pointer;
+}
+.content .sMove {
+  width: 6400px;
+  height: 560px;
+  transition: all 0.3s ease;
+}
+.content .sMove div {
+  width: 780px;
+  height: 560px;
+  float: left;
+}
+.content .sMove div:nth-child(1) {
+  margin-left: 150px;
+}
+.content .sMove div img {
+  width: 100%;
+  height: 100%;
+}
+.content .nav {
+  width: 1080px;
+  height: auto;
+  margin-top: 560px;
+}
+.content .nav li {
+  width: 33.3%;
+  height: 240px;
+  float: left;
+}
+.content .nav li img {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=za_channel.css.map */

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>会员俱乐部</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/myPage1.css"/>
+		<link rel="stylesheet" type="text/css" href="css/za_member.css"/>
+		<script src="package/jquery/jquery-2.1.0.js"></script>
+		<script src="js/background.js"></script>
+	</head>
+	<body>
+	<div class="container">
+			
+		
+		<!--head start-->
+		<div class="bo_header">
+			<div class="bo_page_width">
+				<div class="bo_header_logo left">
+					<a href=""><img src="img/h_logo.png" alt="" /></a>
+				</div>
+				<div class="bo_header_nav right">
+					<div class="bo_header_navTop">
+						<ul>
+							<li id="district">地区</li>
+							<li><a href=""><img src="img/bo_header_topTip.jpg" alt="" /></a></li>
+							<li><a href=""><img src="img/bo_page_header_topTip2.jpg" alt="" /></a></li>
+							<!--<div id="addr">
+								<a href="">世界</a>
+								<a href="">中国</a>
+							</div>-->
+						</ul>
+					</div>
+					<div class="bo_header_navBottom">
+						<ul>
+							<li><a href="">关于Za</a></li>
+							<li><a href="">Za产品</a></li>
+							<li><a href="">亚洲潮流</a></li>
+							<li><a href="">Za代言人</a></li>
+							<li><a href="">Za科技</a></li>
+							<li><a href="">Za频道</a></li>
+							<li><a href="">会员俱乐部</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--head end-->
+		
+		<div class="content">
+			<p class="label">首页<span>></span>会员俱乐部<span>></span>会员制度</p>
+			<h2>会员制度</h2>
+			<div class="leftbar">
+				<div class="ttl_1">
+					<img src="img/ttl_01.jpg"/>
+				</div>
+				<p>会员制度</p>
+				<div class="ttl_1">
+					<img src="img/ttl_02.png"/>
+				</div>
+				<p>会员刊</p>
+				<div class="ttl_1">
+					<img src="img/ttl_3.png"/>
+				</div>
+				<p>促销信息</p>
+			</div>
+			<div class="right">
+				<button type="button" id="nextpage">下一页  ></button>
+				<div class="member">
+					<img src="img/member_01.jpg" id="member"/>
+				</div>
+			</div>
+		</div>
+		
+		<!--底栏 start-->
+		<div class="footer">
+			<div class="bo_page_width">
+				<div class="wrap_foot clear">
+					<div class="footer_im left">
+					</div>
+					<div class="foot_list left">
+						<div class="first_footerlist">
+							<div class="listTitle">Za LAB</div>
+							<ul class="left">
+								<li><a href="">关于Za</a></li>
+								<li><a href="">Za产品</a></li>
+								<li><a href="">Za代言人</a></li>
+							</ul>
+							<ul class="left">
+								<li><a href="">Za频道</a></li>
+								<li><a href="">30条美丽贴士</a></li>
+								<li><a href="">Za MEN</a></li>
+							</ul>
+						</div>
+						<div class="other_footerlist">
+							<div class="listTitle">护肤</div>
+							<ul class="left">
+								<li><a href="">美白</a></li>
+								<li><a href="">抗老</a></li>
+								<li><a href="">保湿</a></li>
+								<li><a href="">高保湿</a></li>
+								<li><a href="">清洁</a></li>
+							</ul>
+						</div>
+						<div class="other_footerlist">
+							<div class="listTitle">彩妆</div>
+							<ul class="left">
+								<li><a href="">脸部</a></li>
+								<li><a href="">眼部</a></li>
+								<li><a href="">唇部</a></li>
+								<li><a href="">腮红</a></li>
+							</ul>
+						</div>
+						<div class="end_footerlist">
+							<div class="listTitle">Za化妆品</div>
+							<ul class="left">
+								<li><a href="">全球（英文）</a></li>
+								<li><a href="">中国</a></li>
+								<li><a href="">台湾</a></li>
+								<li><a href="">泰国</a></li>
+							</ul>
+							<ul class="left">
+								<li><a href="">日本</a></li>
+								<li><a href="">印度</a></li>
+								<li><a href="">香港</a></li>
+								<li><a href="">越南</a></li>
+							</ul>
+							<ul class="left">
+								<li><a href="">马来西亚</a></li>
+								<li><a href="">新加坡</a></li>
+								<li><a href="">新西兰</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="foot_link left">
+						<a href=""><img src="img/ico_externalConnectionsLink02.gif"/></a>
+						<a href=""><img src="img/ico_externalConnectionsLink01.gif"/></a>
+						<a href=""><img src="img/ico_externalConnectionsLink04.gif"/></a>
+						<a href=""><img src="img/aca1.jpg"/></a>
+						
+					</div>
+				</div>
+				<div class="footer_add">
+					泸ICP备10203872(C)2017 By Za ALLRIGHT RESERVED
+				</div>
+			</div>
+		</div>
+		<!--底栏 end-->
+		<div id="background">
+			<div class="front" style="top: 0px;"></div>
+			<div class="back" style="top: 0px;"></div>
+		</div>
+	</div>
+	</body>
+	<script type="text/javascript">
+	var page = true;
+		$('#nextpage').click(function(){
+			if (page) {
+				page=false;
+				this.innerHTML = '< 上一页'
+				$('#member').attr('src','img/member_02.jpg');
+			} else{
+				this.innerHTML = '下一页  >'
+				$('#member').attr('src','img/member_01.jpg');
+				page=true;
+			}
+			
+		})
+	</script>
+</html>

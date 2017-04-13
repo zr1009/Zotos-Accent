@@ -1,0 +1,307 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	outline: none;
+	vertical-align: middle;
+	font-family: "微软雅黑";
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	border: none;
+}
+
+#box {
+	width: 100%;
+	height: 1894px;
+	background: url(../img/bg.png);
+	background-size: cover;
+}
+
+#nav {
+	width: 100%;
+	height: 94px;
+	background: url(../img/nav-bg.png);
+	background-size: cover;
+	box-shadow: 0 2px 5px 1px #000;
+}
+
+.nav_a {
+	width: 960px;
+	height: 94px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.nav_a>a {
+	width: 93px;
+	height: 93px;
+	position: absolute;
+	left: 23px;
+}
+
+.nav_b {
+	width: 488px;
+	height: 94px;
+	margin-left: 165px;
+}
+
+.nav_b a {
+	display: block;
+	float: left;
+	padding: 0 35px;
+	color: #fff;
+	line-height: 94px;
+}
+
+.nav_b a:hover {
+	color: #8f8f8f;
+}
+
+.nav_c {
+	width: 184px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.nav_c p {
+	/*width: 100%;*/
+	height: 30px;
+	padding-left:50px;
+	line-height: 30px;
+	font-size: 12px;
+	color: #fff;
+}
+
+.nav_c img{
+	display: inline;
+}
+
+.con{
+	width: 960px;
+	height: 1645px;
+	margin: 0 auto;
+}
+
+.pa{
+	width: 100%;
+	height: 16px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	padding-top: 62px;
+}
+.pb{
+	width: 888px;
+	height: 187px;
+	margin-top: 45px;
+	padding-left: 66px;
+	padding-top: 60px;
+	background: url(../img/bg_jza.png);
+	color: #fff;	
+}
+
+.pb p:nth-child(1){
+	height: 20px;
+	line-height: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.pb p:nth-child(2){
+	height: 34px;
+	line-height: 34px;
+	font-size: 34px;
+	letter-spacing: 1px;
+	margin-top: 14px;
+}
+
+.pb p:nth-child(3){
+	height: 16px;
+	line-height: 16px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin-top: 16px;
+	color: #feece8;
+}
+
+.pb p:nth-child(4){
+	height: 16px;
+	line-height: 16px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin-top: 6px;
+	color: #feece8;
+}
+
+.pc{
+	width: 960px;
+	height: 657px;
+	margin-top: 24px;
+	color: #fff;
+}
+
+.left{
+	width: 468px;
+	height: 657px;
+	background: #000;
+	float: left;
+	display: block;
+}
+.diva{
+	width: 100%;
+	height: 430px;
+}
+.imga{
+	margin-top:70px ;
+	margin-left: 135px;
+	float: left;
+}
+.imgb{
+	margin-top:310px ;
+	float: left;
+}
+.imgc{
+	margin-top:85px ;
+	margin-left: 100px;
+	float: left;
+}
+.imgd{
+	margin-top:310px ;
+	margin-left:35px ;
+	float: left;
+}
+.jmzi{
+	margin-top: 40px;
+	padding-left: 62px;
+	text-align: left;
+	color: #e73d3e;
+	font-size: 23px;
+}
+
+.ckxq{
+	width: 104px;
+	display: block;
+	height: 24px;
+	margin-top: 77px;
+	padding-left: 62px;
+}
+
+.right{
+	width: 468px;
+	height: 657px;
+	background: #000;
+	margin-left: 24px;
+	float:left;
+	display: block;
+}
+.pd{
+	width: 100%;
+	height: 16px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	padding-top: 80px;
+}
+.pe{
+	width: 100%;
+	height: 300px;
+	margin-top: 55px;
+}
+.lia{
+	width: 304px;
+	height: 430px;
+	float: left;
+	background: url(../img/item_bg_green.png);
+	color: #fff;
+	display: block;
+}
+.lia img:nth-child(1){
+	margin-top: -24px;
+	display: block;
+}
+.lia p:nth-child(2){
+	margin-top: 25px;
+	height: 16px;
+	line-height: 16px;
+	font-size: 16px;
+	padding-left: 38px;
+}
+.lia p:nth-child(3){
+	margin-top: 6px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 30px;
+	padding-left: 38px;
+	
+}
+.lia p:nth-child(4){
+	margin-top: 16px;
+	height: 14px;
+	line-height: 14px;
+	font-size: 14px;
+	padding-left: 38px;
+	
+}
+.lia p:nth-child(5){
+	margin-top: 8px;
+	height: 14px;
+	line-height: 14px;
+	font-size: 14px;
+	padding-left: 38px;
+	
+}
+.lia img:nth-child(6){
+	margin-top: 34px;
+	padding-left: 38px;
+	display: block;
+	
+}
+#lib{
+	width: 304px;
+	height: 430px;
+	float: left;
+	background: url(../img/item_bg_blue.png);
+	color: #fff;
+	margin-left: 24px;
+	
+}
+#lic{
+	width: 304px;
+	height: 430px;
+	float: left;
+	background: url(../img/item_bg_white.png);
+	color: #fff;
+	margin-left: 24px;
+	
+}
+
+.foota{
+	width: 960px;
+	height: 30px;
+	margin: auto;
+	margin-top: 40px;
+}
+.footb{
+	width: 960px;
+	height: 14px;
+	margin: auto;
+	margin-top: 20px;
+}
+.spana{
+	float: left;
+	font-size: 12px;
+	color: #a4a4a4;
+}
+.spanb{
+	float: right;
+	font-size: 10px;
+	color: #a4a4a4;
+}

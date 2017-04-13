@@ -1,0 +1,172 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+b,
+i,
+ul,
+li,
+img,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+hgroup,
+menu,
+section,
+nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+section,
+summary,
+nav {
+  display: block;
+}
+nav ul {
+  list-style: none;
+}
+blockquote,
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+input,
+select {
+  vertical-align: middle;
+}
+.main_banner {
+  width: 1080px;
+  height: 426px;
+  margin: 30px auto 50px;
+  background: url(../img/stars_02_bg.jpg);
+  background-size: 100%;
+  position: relative;
+}
+.main_banner h3 {
+  position: absolute;
+  top: 80px;
+  left: 608px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #E1017D;
+}
+.main_banner .banner_rh {
+  width: 303px;
+  height: 141px;
+  position: absolute;
+  top: 116px;
+  left: 608px;
+  background: url(../img/stars_02_name.png);
+}
+.main_banner > p {
+  width: 400px;
+  height: 80px;
+  position: absolute;
+  left: 608px;
+  top: 276px;
+  font-size: 14.5px;
+  color: #FFFFFF;
+  line-height: 20px;
+}
+.main_cont {
+  width: 1080px;
+  overflow: hidden;
+  margin: 0 auto 20px;
+}
+.main_cont .chapter {
+  width: 340px;
+  float: left;
+  margin-right: 28px;
+}
+.main_cont .chapter:nth-child(3) {
+  margin-right: 0;
+}
+.main_cont .chapter a:first-child {
+  width: 100%;
+  height: 220px;
+  display: block;
+  margin-bottom: 16px;
+}
+.main_cont .chapter a:first-child img {
+  width: 100%;
+  height: 100%;
+}
+.main_cont .chapter h5 {
+  font-size: 15px;
+  color: #E1017D;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.main_cont .chapter p {
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  width: 320px;
+}
+.main_cont .chapter a:last-child {
+  width: 130px;
+  height: 25px;
+  display: block;
+  margin-top: 16px;
+}
+.main_cont .chapter a:last-child img {
+  width: 100%;
+  height: 100%;
+}
+.main_cont .backTop {
+  width: 54px;
+  height: 50px;
+  float: right;
+  margin: 30px 25px;
+}
+.main_cont .backTop img {
+  width: 30px;
+  height: 18px;
+  margin: 0 auto;
+  display: block;
+}
+.main_cont .backTop p {
+  width: 100%;
+  text-align: center;
+  color: #E1017D;
+  margin-top: 15px;
+}
+/*# sourceMappingURL=za_dyr.css.map */

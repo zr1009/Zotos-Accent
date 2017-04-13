@@ -1,0 +1,312 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	outline: none;
+	vertical-align: middle;
+	color: #fff;
+	font-family: "微软雅黑";
+}
+
+i{
+	display: block;
+}
+
+a {
+	text-decoration: none;
+}
+
+img{
+	display: block;
+	border: none;
+}
+
+#box {
+	width: 100%;
+	height: 1600px;
+	background: url(../img/bg.png);
+	background-size: cover;
+}
+
+#nav {
+	width: 100%;
+	height: 94px;
+	background: url(../img/nav-bg.png);
+	background-size: cover;
+	box-shadow: 0 2px 5px 1px #000;
+}
+
+.nav_a {
+	width: 960px;
+	height: 94px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.nav_a>a {
+	width: 93px;
+	height: 93px;
+	position: absolute;
+	left: 23px;
+}
+
+.nav_b {
+	width: 488px;
+	height: 94px;
+	margin-left: 165px;
+}
+
+.nav_b a {
+	display: block;
+	float: left;
+	padding: 0 35px;
+	color: #fff;
+	line-height: 94px;
+}
+
+.nav_b a:hover {
+	color: #8f8f8f;
+}
+
+.nav_c {
+	width: 184px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.nav_c p {
+	/*width: 100%;*/
+	height: 30px;
+	padding-left:50px;
+	line-height: 30px;
+	font-size: 12px;
+	color: #fff;
+}
+
+.nav_c img{
+	display: inline;
+}
+
+.con{
+	width: 960px;
+	height: 1350px;
+	margin: 0 auto;
+}
+
+.pa{
+	width: 100%;
+	height: 16px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	padding-top: 62px;
+}
+
+.pb{
+	width: 100%;
+	height: 302px;
+	background: #1b1b1b;
+	margin-top: 46px;
+}
+
+.pb img{
+	width: 440px;
+	height: 302px;
+	float: left;
+}
+
+.pc{
+	width: 400px;
+	height: 245px;
+	float: left;
+	margin-left: 24px;
+	margin-top: 46px;
+}
+
+.pc p:nth-child(1){
+	font-size:20px ;
+	line-height: 20px;
+	height: 20px;
+}
+
+.pc p:nth-child(2){
+	font-size:40px ;
+	line-height: 40px;
+	height: 40px;
+	margin-top: 12px;
+}
+
+.pc p:nth-child(3){
+	font-size:14px ;
+	line-height: 14px;
+	height: 14px;
+	margin-top: 20px;
+}
+
+.pc p:nth-child(4){
+	font-size:14px ;
+	line-height: 14px;
+	height: 14px;
+	margin-top: 10px;
+}
+
+.pc p:nth-child(5){
+	font-size:14px ;
+	line-height: 14px;
+	height: 14px;
+	margin-top: 22px;
+	font-weight: bold;
+}
+
+.pc p:nth-child(6){
+	font-size:14px ;
+	line-height: 14px;
+	height: 14px;
+	margin-top: 10px;
+}
+
+.pc p:nth-child(7){
+	font-size:14px ;
+	line-height: 14px;
+	height: 14px;
+	margin-top: 8px;
+}
+
+.pd{
+	width:100%;
+	height:840px;
+	margin-top: 25px;
+	background: #1B1B1B;
+}
+
+.left{
+	width: 460px;
+	height: 704px;
+	padding: 70px;
+	float: left;
+}
+
+.left p:nth-child(1){
+	width: 300px;
+	height: 95px;
+	font-size: 36px;
+	line-height: 48px;
+}
+
+.left p:nth-child(2){
+	height: 18px;
+	font-size: 18px;
+	line-height: 18px;
+	margin-top: 38px;
+}
+
+.left i:nth-child(3){
+	height: 14px;
+	font-size: 14px;
+	line-height: 14px;
+	margin-top: 25px;
+}
+
+.left p:nth-child(4){
+	width: 432px;
+	height: 84px;
+	font-size: 14px;
+	line-height: 26px;
+	margin-top: 4px;
+	padding-left: 28px;
+}
+
+.left i:nth-child(5){
+	height: 14px;
+	font-size: 14px;
+	line-height: 14px;
+	margin-top: 30px;
+}
+
+.left p:nth-child(6){
+	height: 130px;
+	font-size: 14px;
+	line-height: 26px;
+	margin-top: 4px;
+	padding-left: 28px;
+}
+
+.left i:nth-child(7){
+	height: 14px;
+	font-size: 14px;
+	line-height: 14px;
+	margin-top: 43px;
+}
+
+.left p:nth-child(8){
+	height: 80px;
+	font-size: 14px;
+	line-height: 26px;
+	margin-top: 4px;
+	padding-left: 28px;
+}
+
+.left i:nth-child(9){
+	height: 14px;
+	font-size: 14px;
+	line-height: 14px;
+	margin-top: 70px;
+	font-weight: bold;
+}
+
+.left i:nth-child(10){
+	height: 14px;
+	font-size: 14px;
+	line-height: 14px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.right{
+	width: 320px;
+	height: 100%;
+	float: left;
+	margin-left: 40px;
+}
+
+.right img:nth-child(1){
+	width: 320px;
+	height: 462px;
+}
+
+.right img:nth-child(2){
+	width: 320px;
+	height: 380px;
+}
+
+.aaa{
+	width: 100%;
+	height: 540px;
+	margin-top: 25px;
+	background: #fff;
+}
+
+.foota{
+	width: 960px;
+	height: 30px;
+	margin: auto;
+	margin-top: 40px;
+}
+.footb{
+	width: 960px;
+	height: 14px;
+	margin: auto;
+	margin-top: 20px;
+}
+.spana{
+	float: left;
+	font-size: 12px;
+	color: #a4a4a4;
+}
+.spanb{
+	float: right;
+	font-size: 10px;
+	color: #a4a4a4;
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/homepage.css"/>
+	</head>
+	<body>
+		<div id="box">
+			<div id="nav">
+				<div class="nav_a">
+					<a href="homepage.html"></a>
+					<div class="nav_b">
+						<a href="idea.html">理念</a>
+						<a href="product.html">产品</a>
+						<a href="model.html">模特</a>
+						<a href="ad.html">电视广告和影片</a>
+					</div>
+					<div class="nav_c">
+						<p>英文 |（全球）<img src="img/xiala.png"></p>
+						<a href="../za_x/index.html"><img src="img/btn_za.png" /></a>
+					</div>
+				</div>
+			</div>
+			<div class="banner" id="banner">
+				<ul class="sMove" id='sUl'>
+			    	<li><a href="facial cleanser.html"><img src="img/bannera.jpg"></a></li>
+			    	<li><a href="facial cleanser.html"><img src="img/bannerb.jpg"></a></li>
+			    </ul>
+			    <div class="sNav" id='sNav'>
+			    	<ol>
+			        	<li><div></div></li>
+			            <li><div></div></li>
+			        </ol>
+			    </div>
+			</div>
+			<a href="recharge.html" class="jx">
+				<span class="chanpin">产品</span>			
+				<span id="chakana"><img src="img/ck.png"></span>
+			</a>			
+			<a href="Matifiant.html" class="ky">							
+				<span id="chakanb"><img src="img/ck.png"></span>
+			</a>
+			<a href="moisturize.html" class="bs">		
+				<span id="chakanc"><img src="img/ck.png"></span>
+			</a>
+			<a href="white bright.html" class="xl">			
+				<span id="chakand"><img src="img/ck.png"></span>
+			</a>
+			
+			<p class="huati">话题</p>
+			
+			<div class="lia">
+				<a href="idea.html" class="za">
+					<h3>关于Za男士</h3><br>
+					"专为亚洲男性研发，致力打造<br>
+					问题少、有活力的肌肤"<br><br><br><br>
+					<img src="img/cp.png" />
+				</a>
+				<a href="idea.html" class="sy">
+					<h3>Za实验室</h3><br>
+					"最新日本先进科技 x 针对<br>
+					亚洲肌肤、美容趋势和生<br>
+					活方式的专业研究"<br><br><br>
+					<img src="img/cp.png" />
+				</a>
+			</div>
+			<div class="lib">
+				<a href="idea.html" class="mt">
+					<h3>Za男士系列模特</h3><br>
+					"凤小岳，优雅而充满活力的<br>
+					男士风尚。"<br><br><br><br>
+					<img src="img/cp.png" />
+				</a>
+				<a href="idea.html" class="dy">
+					<h3>电视广告和电影</h3><br>
+					"查看我们的电视广告和后台<br>
+					影片及照片。"<br><br><br><br>
+					<img src="img/cp.png" />
+				</a>
+			</div>
+			
+			<p class="liebiao">产品列表</p>
+			
+			<div class="lic">
+				<a href="product.html" class="jm">
+					<h4 style="color: #fff;">洁面产品</h4>
+					<img src="img/jm.jpg" />
+					<p>Za 男士洁面乳不仅能洗去面部杂质，还能使肌肤重焕活力。*</p>
+					<p>*超过 30 名亚洲男性使用 4 周后的自我评价</p>
+					<img src="img/cp.png" />
+				</a>
+				<a href="product.html" class="hf">
+					<h4 style="color: #fff;">护肤产品</h4>
+					<img src="img/hf.jpg" />
+					<p>Za 男士润肤霜为您带来"8 大强劲护肤效果"</p>
+					<img src="img/cp.png" />
+				</a>
+			</div>
+			<div class="foota"><img src="img/bottona.png" /></div>
+			<div class="footb">
+				<span class="spana">全球ZA男士　/　中国　/　台湾　/　泰国　</span>
+				<span class="spanb">沪ICP备1020387 ©2017. By Za All Right Reserved.</span>
+			</div>
+		</div>
+		
+		<script type="text/javascript">
+		    var allLi = sNav.getElementsByTagName('li');
+		    var allDiv = sNav.getElementsByTagName('div');
+		
+		    sUl.style.width = sUl.children.length * sUl.children[0].offsetWidth + 'px';
+		    var Index = 0;
+		    var needWidth = 0;
+		    var Timer = null;
+		    move();
+		    function move(){
+		        clearInterval(Timer);
+		        Timer = setInterval(function(){
+		            if(needWidth == 100){
+		                for(var i = 0;i < allDiv.length;i++){
+		                    allDiv[i].style.width = 0;
+		                }
+		                needWidth = 0;
+		                Index++;
+		                if(Index == allDiv.length)Index = 0;
+		
+		                sUl.style.left = -Index * sUl.children[0].offsetWidth + 'px';
+		            }
+		            allDiv[Index].style.width = needWidth+'%';
+		            needWidth++;
+		        },50);
+		    }
+		
+		    for(var i = 0;i < allLi.length;i++){
+		        allLi[i].index = i;
+		        allLi[i].onmouseover = function(){
+		             clearInterval(Timer);
+		        };
+		        allLi[i].onmouseout = move;
+		        allLi[i].onclick = function(){
+		            for(var i = 0;i < allDiv.length;i++){
+		                allDiv[i].style.width = 0;
+		            }
+		            Index = this.index;
+		            needWidth = 0;
+		            sUl.style.left = -this.index * sUl.children[0].offsetWidth + 'px';
+		        }
+		    }
+		
+		</script>
+	</body>
+</html>

@@ -1,0 +1,299 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	outline: none;
+	vertical-align: middle;
+	font-family: "微软雅黑";
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	border: none;
+}
+
+#box {
+	width: 100%;
+	height: 3253px;
+	background: url(../img/bg.png);
+	background-size: cover;
+}
+
+#nav {
+	width: 100%;
+	height: 94px;
+	background: url(../img/nav-bg.png);
+	background-size: cover;
+	box-shadow: 0 2px 5px 1px #000;
+}
+
+.nav_a {
+	width: 960px;
+	height: 94px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.nav_a>a {
+	width: 93px;
+	height: 93px;
+	position: absolute;
+	left: 23px;
+}
+
+.nav_b {
+	width: 488px;
+	height: 94px;
+	margin-left: 165px;
+}
+
+.nav_b a {
+	display: block;
+	float: left;
+	padding: 0 35px;
+	color: #fff;
+	line-height: 94px;
+}
+
+.nav_b a:hover {
+	color: #8f8f8f;
+}
+
+.nav_c {
+	width: 184px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.nav_c p {
+	width: 100%;
+	height: 30px;
+	padding-left: 60px;
+	line-height: 30px;
+	font-size: 12px;
+	color: #fff;
+}
+
+.banner {
+	width: 960px;
+	height: 450px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -480px;
+	margin-top: -230px;
+	overflow: hidden;
+}
+
+.sMove {
+	height: 446px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: 0.5s all ease;
+}
+
+.sMove li {
+	width: 960px;
+	height: 446px;
+	float: left;
+}
+
+.sNav {
+	width: 960px;
+	height: 4px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.sNav ol {
+	width: 960px;
+	height: 4px;
+}
+
+.sNav ol li {
+	width: 478px;
+	height: 4px;
+	background: #010101;
+	float: left;
+	cursor: pointer;
+}
+
+.sNav ol li:nth-child(1) {
+	margin-right: 4px;
+}
+
+.sNav ol li div {
+	width: 0;
+	height: 4px;
+	background: #dcdcdc;
+}
+.jx,.bs,.ky,.xl{
+	width: 960px;	
+	margin: 0 auto;
+	position: relative;
+	display: block;
+}
+.jx{
+	height: 285px;
+	margin-top: 515px;
+	background: url(../img/jx.png);
+}
+.ky{
+	height: 283px;
+	margin-top: 32px;
+	background: url(../img/ky.png);
+}
+.bs{
+	height: 285px;
+	margin-top: 16px;
+	background: url(../img/bs.png);
+}
+.xl{
+	height: 281px;
+	margin-top: 20px;
+	background: url(../img/xl.png);
+}
+.chanpin{
+	display: block;
+	position: absolute;
+	top: 10px;
+	left: 0;
+	color: #fff;
+	font-size: 20px;
+}
+#chakana,#chakanb,#chakanc,#chakand{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.huati{
+	width: 960px;
+	height: 20px;
+	margin: auto;
+	margin-top: 80px;
+	color: #fff;
+	font-size: 20px;
+}
+.lia{	
+	margin: auto;
+	margin-top: 30px;	
+}
+.lib{	
+	margin: auto;
+	margin-top: 22px;
+}
+.lia,.lib{
+	width: 960px;
+	height: 270px;
+}
+.lia a,.lib a{
+	width: 423px;
+	height: 210px;
+	padding-left:45px ;
+	padding-top: 60px;
+	display: block;
+	font-size: 14px;
+	color: #fff;
+}
+.za,.mt{
+	float: left;	
+}
+.sy,.dy{
+	float: right;
+}
+.za{
+	background: url(../img/za.png);
+}
+.sy{
+	background: url(../img/sy.png);
+}
+.mt{
+	background: url(../img/mt.png);
+}
+.dy{
+	background: url(../img/dy.png);
+}
+.liebiao{
+	width: 960px;
+	height: 20px;
+	margin: auto;
+	margin-top: 80px;
+	color: #fff;
+	font-size: 20px;
+}
+.lic{
+	margin: auto;
+	margin-top: 16px;
+	width: 960px;
+	height: 480px;	
+	color: #fff;
+}
+.jm{
+	width: 468px;
+	height: 480px;
+	background: #1a1a1a;
+	float: left;
+}
+.hf{
+	width: 468px;
+	height: 480px;
+	background: #1a1a1a;
+	float: right;
+}
+.jm h4,.hf h4{
+	margin-top: 65px;
+	margin-left: 40px;
+}
+.jm img:nth-child(2),.hf img:nth-child(2){
+	display: block;
+	margin:auto;
+	margin-top: 15px;
+}
+.jm p:nth-child(3),.hf p:nth-child(3){
+	margin-left: 40px;
+	font-size: 14px;
+	color: #a7a7a7;
+}
+.jm p:nth-child(4){
+	margin-left: 40px;
+	font-size: 12px;
+	color: #a7a7a7;
+}
+.jm img:nth-child(5){
+	margin-top: 40px;
+	margin-left: 40px;
+}
+.hf img:nth-child(4){
+	margin-top: 55px;
+	margin-left: 40px;
+}
+.foota{
+	width: 960px;
+	height: 30px;
+	margin: auto;
+	margin-top: 40px;
+}
+.footb{
+	width: 960px;
+	height: 14px;
+	margin: auto;
+	margin-top: 20px;
+}
+.spana{
+	float: left;
+	font-size: 12px;
+	color: #a4a4a4;
+}
+.spanb{
+	float: right;
+	font-size: 10px;
+	color: #a4a4a4;
+}
